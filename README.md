@@ -31,3 +31,4 @@ Notes
 - If you want baseURL changed permanently, set BASE_URL or update playwright.config.ts
 
 
+For setup opencart localhost: Pls do follow the OpenCartSetup.pdf
