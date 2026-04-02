@@ -1,0 +1,220 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - button "$ Currency " [ref=e7] [cursor=pointer]:
+        - strong [ref=e8]: $
+        - text: Currency
+        - generic [ref=e9]: 
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "" [ref=e13] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=information/contact
+            - generic [ref=e14]: 
+          - text: "123456789"
+        - listitem [ref=e15]:
+          - link " My Account" [ref=e16] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=account/account
+            - generic [ref=e17]: 
+            - text: My Account
+        - listitem [ref=e19]:
+          - link " Wish List (0)" [ref=e20] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=account/wishlist
+            - generic [ref=e21]: 
+            - text: Wish List (0)
+        - listitem [ref=e22]:
+          - link " Shopping Cart" [ref=e23] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=checkout/cart
+            - generic [ref=e24]: 
+            - text: Shopping Cart
+        - listitem [ref=e25]:
+          - link " Checkout" [ref=e26] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=checkout/checkout
+            - generic [ref=e27]: 
+            - text: Checkout
+  - banner [ref=e28]:
+    - generic [ref=e30]:
+      - link "Your Store" [ref=e33] [cursor=pointer]:
+        - /url: http://localhost/opencart/upload/index.php?route=common/home
+        - img "Your Store" [ref=e34]
+      - generic [ref=e36]:
+        - textbox "Search" [ref=e37]
+        - button "" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: 
+      - generic [ref=e42]:
+        - button " 2 item(s) - $4,000.00" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: 
+          - text: 2 item(s) - $4,000.00
+        - text:   
+  - navigation [ref=e46]:
+    - generic: 
+    - list [ref=e48]:
+      - listitem [ref=e49]:
+        - link "Desktops" [ref=e50] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=20
+      - listitem [ref=e51]:
+        - link "Laptops & Notebooks" [ref=e52] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=18
+      - listitem [ref=e53]:
+        - link "Components" [ref=e54] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=25
+      - listitem [ref=e55]:
+        - link "Tablets" [ref=e56] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=57
+      - listitem [ref=e57]:
+        - link "Software" [ref=e58] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=17
+      - listitem [ref=e59]:
+        - link "Phones & PDAs" [ref=e60] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=24
+      - listitem [ref=e61]:
+        - link "Cameras" [ref=e62] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=33
+      - listitem [ref=e63]:
+        - link "MP3 Players" [ref=e64] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=34
+  - generic [ref=e65]:
+    - list [ref=e66]:
+      - listitem [ref=e67]:
+        - link "" [ref=e68] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=common/home
+          - generic [ref=e69]: 
+      - listitem [ref=e70]:
+        - link "Shopping Cart" [ref=e71] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=checkout/cart
+    - generic [ref=e73]:
+      - heading "Shopping Cart (0.00kg)" [level=1] [ref=e74]
+      - table [ref=e77]:
+        - rowgroup [ref=e78]:
+          - row "Image Product Name Model Quantity Unit Price Total" [ref=e79]:
+            - cell "Image" [ref=e80]
+            - cell "Product Name" [ref=e81]
+            - cell "Model" [ref=e82]
+            - cell "Quantity" [ref=e83]
+            - cell "Unit Price" [ref=e84]
+            - cell "Total" [ref=e85]
+        - rowgroup [ref=e86]:
+          - 'row "MacBook Pro MacBook Pro Reward Points: 1600 Product 18 2   $2,000.00 $4,000.00" [ref=e87]':
+            - cell "MacBook Pro" [ref=e88]:
+              - link "MacBook Pro" [ref=e89] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=product/product&product_id=45
+                - img "MacBook Pro" [ref=e90]
+            - 'cell "MacBook Pro Reward Points: 1600" [ref=e91]':
+              - link "MacBook Pro" [ref=e92] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=product/product&product_id=45
+              - text: "Reward Points: 1600"
+            - cell "Product 18" [ref=e93]
+            - cell "2  " [ref=e94]:
+              - generic [ref=e95]:
+                - textbox [ref=e96]: "2"
+                - generic [ref=e97]:
+                  - button "" [ref=e98] [cursor=pointer]:
+                    - generic [ref=e99]: 
+                  - button "" [ref=e100] [cursor=pointer]:
+                    - generic [ref=e101]: 
+            - cell "$2,000.00" [ref=e102]
+            - cell "$4,000.00" [ref=e103]
+      - heading "What would you like to do next?" [level=2] [ref=e104]
+      - paragraph [ref=e105]: Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.
+      - generic [ref=e106]:
+        - heading "Use Coupon Code " [level=4] [ref=e109]:
+          - link "Use Coupon Code " [ref=e110] [cursor=pointer]:
+            - /url: "#collapse-coupon"
+            - text: Use Coupon Code
+            - generic [ref=e111]: 
+        - generic [ref=e112]:
+          - heading "Estimate Shipping & Taxes " [level=4] [ref=e114]:
+            - link "Estimate Shipping & Taxes " [ref=e115] [cursor=pointer]:
+              - /url: "#collapse-shipping"
+              - text: Estimate Shipping & Taxes
+              - generic [ref=e116]: 
+          - text: "* * *"
+        - heading "Use Gift Certificate " [level=4] [ref=e119]:
+          - link "Use Gift Certificate " [ref=e120] [cursor=pointer]:
+            - /url: "#collapse-voucher"
+            - text: Use Gift Certificate
+            - generic [ref=e121]: 
+      - table [ref=e124]:
+        - rowgroup [ref=e125]:
+          - 'row "Sub-Total: $4,000.00" [ref=e126]':
+            - cell "Sub-Total:" [ref=e127]:
+              - strong [ref=e128]: "Sub-Total:"
+            - cell "$4,000.00" [ref=e129]
+          - 'row "Total: $4,000.00" [ref=e130]':
+            - cell "Total:" [ref=e131]:
+              - strong [ref=e132]: "Total:"
+            - cell "$4,000.00" [ref=e133]
+      - generic [ref=e134]:
+        - link "Continue Shopping" [ref=e136] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=common/home
+        - link "Checkout" [ref=e138] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=checkout/checkout
+  - contentinfo [ref=e139]:
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - heading "Information" [level=5] [ref=e143]
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - link "About Us" [ref=e146] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=4
+            - listitem [ref=e147]:
+              - link "Delivery Information" [ref=e148] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=6
+            - listitem [ref=e149]:
+              - link "Privacy Policy" [ref=e150] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=3
+            - listitem [ref=e151]:
+              - link "Terms & Conditions" [ref=e152] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=5
+        - generic [ref=e153]:
+          - heading "Customer Service" [level=5] [ref=e154]
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "Contact Us" [ref=e157] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/contact
+            - listitem [ref=e158]:
+              - link "Returns" [ref=e159] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/return/add
+            - listitem [ref=e160]:
+              - link "Site Map" [ref=e161] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/sitemap
+        - generic [ref=e162]:
+          - heading "Extras" [level=5] [ref=e163]
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - link "Brands" [ref=e166] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=product/manufacturer
+            - listitem [ref=e167]:
+              - link "Gift Certificates" [ref=e168] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/voucher
+            - listitem [ref=e169]:
+              - link "Affiliate" [ref=e170] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=affiliate/login
+            - listitem [ref=e171]:
+              - link "Specials" [ref=e172] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=product/special
+        - generic [ref=e173]:
+          - heading "My Account" [level=5] [ref=e174]
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - link "My Account" [ref=e177] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/account
+            - listitem [ref=e178]:
+              - link "Order History" [ref=e179] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/order
+            - listitem [ref=e180]:
+              - link "Wish List" [ref=e181] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/wishlist
+            - listitem [ref=e182]:
+              - link "Newsletter" [ref=e183] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/newsletter
+      - separator [ref=e184]
+      - paragraph [ref=e185]:
+        - text: Powered By
+        - link "OpenCart" [ref=e186] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: Your Store © 2026
+```
