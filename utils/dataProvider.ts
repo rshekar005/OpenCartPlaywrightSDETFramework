@@ -1,5 +1,5 @@
-import fs from "fs";
-import {parse} from "csv-parse"
+import fs from 'fs';
+import { parse } from 'csv-parse/sync';
 
 
 export class DataProvider{
@@ -10,11 +10,12 @@ export class DataProvider{
     }
 
     static getTestDataFromCSV(filePath:string){
-       let data:any= parse(fs.readFileSync(filePath,'utf-8'),{
-            columns:true,
-            skip_empty_lines:true
-        })
-        return data;
+       const content = fs.readFileSync(filePath, 'utf-8');
+       const records = parse(content, {
+           columns: true,
+           skip_empty_lines: true,
+       });
+       return records as any[];
     }
 
 
