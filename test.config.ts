@@ -1,7 +1,8 @@
 export class TestConfig{
 
 
-    appUrl:string="http://localhost/opencart/upload/";
+   // appUrl:string="http://localhost/opencart/upload/";
+   appUrl:string="https://tutorialsninja.com/demo/index.php";
     email:string="pr@gmail.com";
     password:string="test@123";
 

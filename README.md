@@ -32,3 +32,7 @@ Notes
 
 
 For setup opencart localhost: Pls do follow the OpenCartSetup.pdf
+
+or use
+
+https://tutorialsninja.com/demo/index.php
